@@ -1,0 +1,14 @@
+p:first-child {
+  color: red;
+}
+
+div:nth-child(2) p:nth-child(2) {
+  color: white;
+  background-color: blue;
+}
+
+p {
+  color: blue;
+}
+
+

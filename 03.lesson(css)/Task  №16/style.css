@@ -1,0 +1,5 @@
+div {
+  width: 100px;
+  margin-left: 50px;
+  box-shadow: 20px 0 10px red, -20px 0 10px green;
+}

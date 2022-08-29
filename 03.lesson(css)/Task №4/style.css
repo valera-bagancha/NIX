@@ -1,0 +1,11 @@
+span:first-child {
+  font-weight: 700
+}
+
+span:last-child {
+  font-style: italic;
+}
+
+p {
+  font-size: 2em;
+}

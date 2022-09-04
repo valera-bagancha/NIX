@@ -1,9 +1,8 @@
 div {
   border: 1px solid black;
-  width: 100px;
+  padding: 5px;
   float: left;
+  box-sizing: border-box;
 }
 
-.right {
-  float: right;
-}
+

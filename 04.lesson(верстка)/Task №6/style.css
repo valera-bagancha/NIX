@@ -1,0 +1,12 @@
+div {
+  padding: 15px;
+}
+
+.aside {
+  border: 1px dotted black;
+  box-sizing: border-box;
+}
+
+.main {
+  border: 1px solid black;
+}

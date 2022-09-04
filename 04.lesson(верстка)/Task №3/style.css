@@ -1,0 +1,41 @@
+
+* { 
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.red {
+  float: left;
+  width: 30%;
+}
+
+.green {
+  float: right;
+  width: 70%;
+}
+
+.black {
+  float: left;
+  width: 70%;
+}
+
+.blue {
+  float: right;
+  width: 30%;
+}
+
+.purple {
+  float: right;
+  width: 25%;
+}
+
+.acrylic {
+  float: left;
+  width: 25%;
+}
+
+.yellow {
+  float: right;
+  width: 50%;
+}
+

@@ -1,0 +1,25 @@
+.green {
+  background-color: green;
+}
+
+.red {
+  background-color: red;
+}
+
+.right {
+  float: right;
+  width:30%;
+}
+
+.indent-right {
+  margin-right: 30%;
+}
+
+.left {
+  width:30%;
+  float: left;
+}
+
+.indent-left {
+  margin-left: 30%;
+}

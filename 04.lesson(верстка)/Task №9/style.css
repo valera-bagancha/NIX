@@ -1,0 +1,33 @@
+* {
+  list-style-type: none;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.inner-list {
+  display: none;
+}
+
+
+.middle-item:hover .inner-list {
+  display: block;
+  background-color: red;
+}
+
+
+.middle-item:hover {
+  font-size: 0;
+}
+
+.middle-item:hover .inner-list {
+  font-size: 14px;
+}
+
+.middle-item:hover + .hidden {
+  display: none;
+}
+
+
+
+
+

@@ -1,0 +1,47 @@
+/* для .flex-container { width: 400px; }: */
+
+@media (min-width: 400px) {
+  .flex-container {
+    width: 400px;
+    display: flex;
+  }
+
+  .flex-container div {
+    flex-basis: 200px;
+  }
+
+  .item-1 {
+    flex-shrink: 2;
+  }
+
+  .item-2 {
+    flex-shrink: 3;
+  }
+}
+
+/*  для .flex-container { width: 500px; }: */
+
+
+@media (min-width: 500px) {
+  .flex-container {
+    width: 500px;
+  }
+
+  .flex-container div {
+    flex-basis: 100px;
+  }
+}
+
+
+ /* для .flex-container { width: 600px; }: */
+
+
+@media (min-width: 600px) {
+  .flex-container {
+    width: 600px;
+  } 
+
+  .grow {
+    flex-grow: 3;
+  }
+}

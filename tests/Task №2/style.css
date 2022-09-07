@@ -1,24 +1,22 @@
-body {
-  background-color: rgba(128, 128, 128, 0.3);
-  background-color: hsla(240, 2%, 27%, 0.3);
+div {
+  border: 1px solid black;
+}
+
+.container {
+  display: flex;
+  height: 100px;
+  align-items: flex-end;
+}
+
+.container div {
+  width: 75px;
 }
 
 
-body p {
-  color: rgb(25, 0, 255);
+.item-3 {
+  align-self: start;
 }
 
-.color-blue {
-  color: #1900ff;
+.item-2 {
+  align-self: center;
 }
-
-#blue {
-  color: blue;
-}
-
-p {
-  color: hsl(246, 100%, 50%);
-}
-
-
-

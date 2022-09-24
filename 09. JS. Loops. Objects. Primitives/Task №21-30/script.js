@@ -131,13 +131,6 @@
 // console.log(sum);
 
 //Task №30
-// let salaries = {
-//   John: 100,
-//   Ann: 160,
-//   Pete: 130,
-//   Mike: 'hello',
-// }
-
 // const multiplyNumeric = (obj) => {
 //   for(let key in obj) {
 //     if (typeof obj[key] === 'number') {

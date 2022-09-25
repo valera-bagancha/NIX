@@ -74,11 +74,23 @@ if (x > 0 && y > 0) {
 }
 
 //Task №7
-A(4, 5);
-B(4, 1);
-C(9, 1);
-D-?;
-D(9, 5);
+const Ax = 2;
+const Ay = 2;
+const Bx = 2;
+const By = 7;
+const Cx = 5;
+const Cy = 2;
+let Dx = 0;
+let Dy = 0;
+
+if (Ay == Cy && Ax == Bx) {
+  Dx = Cx
+  Dy = By
+  console.log(`Dx: ${Dx}`);
+  console.log(`Dy: ${Dy}`);
+} else {
+  console.log('Triangle is not parallel to the coordinate axes');
+}
 
 //Task №8
 let year = +prompt('Введите любой год:');

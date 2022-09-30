@@ -1,31 +1,18 @@
 // Task №6
-// function Calculator() {
+function calc(a, b, operation) {
+  switch (operation) {
+    case '+':
+      return a + b;
+    case '-':
+      return a - b;
+    case '/':
+      return a / b;
+    case '*':
+      return a * b;
+  }
+}
 
-//   this.methods = {
-//     "-": (a, b) => a - b,
-//     "+": (a, b) => a + b
-//   };
-
-//   this.calculate = function(str) {
-
-//     let split = str.split(' '),
-//       a = +split[0],
-//       op = split[1],
-//       b = +split[2]
-
-//     if (!this.methods[op] || isNaN(a) || isNaN(b)) {
-//       return NaN;
-//     }
-
-//     return this.methods[op](a, b);
-//   }
-
-//   this.addMethod = function(name, func) {
-//     this.methods[name] = func;
-//   };
-// }
-
-// Calculator()
+  console.log(calc(1, 2, '*'));
 
 // Task №7
 let vasya = { name: "Вася", age: 25 };
@@ -80,4 +67,3 @@ function unique(arr) {
 let strings = ["кришна", "кришна", "харе", "харе", "харе", "харе", "кришна", "крішна", ":-O"];
 
 console.log(unique(strings));
-
